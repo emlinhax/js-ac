@@ -3,7 +3,7 @@ Featuring multiple ways to detect cheating in browser games.\
 Im fairly new to javascript "cheating" but these are some things I found:\
 
 
-
+<br>
 
 
 # monkey-detect.js
