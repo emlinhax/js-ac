@@ -19,6 +19,6 @@ this works by checking the stacktrace (again).
 
 
 # reflect-check.js
-this is just another way of detecting a proxy function. it works by hooking\
-reflect.apply and either checking where it comes from. 
+this is just another way of detecting a proxy function.\
+it works by hooking reflect.apply and either checking where it comes from.\
 the fact that the function is being called at all might just be enough for it to be considered a violation.
