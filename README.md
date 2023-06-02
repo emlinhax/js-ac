@@ -16,3 +16,10 @@ it works by hooking a target function and then checking the stacktrace when its 
 the easiest trick i could find to checking if a function is being proxied.\
 due to their nature you normally cannot detect proxies in javascript.\
 this works by checking the stacktrace (again).
+
+
+# reflect-check.js
+this is just another way of detecting a proxy function. it works by hooking\
+reflect.apply and either checking where it comes from.\
+in some cases the fact that the function is being called\
+at all might just be enough for it to be considered a violation.
